@@ -320,9 +320,7 @@ h6 { font-size: .75em; }
         right: 1.75rem;
     }
     
-    .hamburger__toggle__icon
-    :before {
-  content: " ";
+    .hamburger__toggle__icon {
     font-weight: 800;
     color: #fff;
     background-color: #0084c7;

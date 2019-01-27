@@ -265,7 +265,7 @@ h6 { font-size: .75em; }
 .hamburger__items {
         background-color: #0084c7;
     box-shadow: -1px 2px 5px #e3002f;
-    height: 50vh;
+    height: 100vh;
     position: absolute;
     visibility: hidden;
     width: 50vw;

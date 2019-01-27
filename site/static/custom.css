@@ -181,6 +181,16 @@ h6 { font-size: .75em; }
   height: 0; width: 0; position: absolute; visibility: hidden;
  }
 
+header {
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  background: #ECECEC;
+  z-index: 2;
+}
 
 @media screen and (max-width: 767px) {
   header .control-nav {

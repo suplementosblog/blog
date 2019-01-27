@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/autores.jpg" "title" .Params.name "subtitle" .Summary) }}
+
+{{ partial "blog-home" . }}
+
+{{ end }}

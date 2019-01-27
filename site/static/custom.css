@@ -320,7 +320,7 @@ h6 { font-size: .75em; }
         right: 1.75rem;
     }
     
-    hamburger__toggle__icon
+    .hamburger__toggle__icon
     :before {
   content: " ";
     font-weight: 800;

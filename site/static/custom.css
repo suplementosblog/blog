@@ -139,13 +139,13 @@ h6 { font-size: .75em; }
  *  botão
  **************************************************/
 .clica {
-    background: #16496b;
+    background: #e3002f;
     color: #fff;
     cursor: pointer;
     border-radius: 7px;
     box-shadow: 5px 5px 5px #ccc;
-    border: 1px solid #123e5d;
-    border-bottom: 6px solid #03132f;
+    border: 1px solid #c10129;
+    border-bottom: 6px solid #670015;
     padding: 12px 16px 10px;
     font-size: 1rem;
     font-weight: 700;
@@ -153,10 +153,10 @@ h6 { font-size: .75em; }
 }
 
 .clica:hover {
-    background: #123e5d;
+    background: #c10129;
     position: relative;
     top: 2px;
-    border-bottom: 3px solid #03132f;
+    border-bottom: 3px solid #670015;
 }
 
 /*************************************************

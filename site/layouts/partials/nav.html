@@ -1,17 +1,33 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
 
-	<!-- Logo -->
+<header class="header navbar-fixed-top">
+  
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+      <div class="container">
+	      <!-- Logo -->
 	<a href="/" class="pa3 db mr4 h-100 flex-none">
 		<img src="/img/logo-topo-SB.png" alt="SB logo" class="br0 db mb0 w-100-ns" width="250px" height="32px"/ />
 	</a>
-
-	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/" class="pa3 no-underline db">Início</a></li>
-
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contato" class="pa3 no-underline db">Contato</a></li>
-	</ul>
-
-</nav>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container js_nav-item">
+          </div>
+          <!-- HAMBURGUER MENU ICON -->
+          <input type="checkbox" name="toggle" id="toggle"/>
+          <label for="navbar-toggle"></label>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="menu-mobile">
+              <div class="collapse navbar-collapse nav-collapse ">
+                  <div class="menu-container">
+                      <ul class="nav navbar-nav container-right ">
+                          <li class="js_nav-item nav-item"><a class="nav-item-child" href="#">Home</a></li>
+                          <li class="js_nav-item nav-item"><a class="nav-item-child" href="#">About Us</a></li>
+                          <li class="js_nav-item nav-item"><a class="nav-item-child" href="#">Our Partners</a></li>
+                          <li class="js_nav-item nav-item"><a class="nav-item-child" href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+        </div>
+      </div>
+  </nav>
+  
+</header>

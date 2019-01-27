@@ -345,3 +345,11 @@ h6 { font-size: .75em; }
     .section {
         margin: 2.75rem 10%;
     }
+  @media only screen and (max-width: 576px) {
+    .header__title {
+        margin-left: 1.75rem;
+    }
+
+    .toggle {
+        right: 1.75rem;
+    }

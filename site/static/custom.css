@@ -270,7 +270,7 @@ h6 { font-size: .75em; }
 #nav-btn:checked ~ nav ul{
     transform: translate(-50%, -50%);
 }
-nav{
+nav2{
     background: rgba(52, 82, 113, 0.98) none repeat scroll 0% 0%;
     height: 100%;
     opacity: 0;
@@ -281,7 +281,7 @@ nav{
     width: 100%;
     z-index: -1;
 }
-nav ul{
+nav2 ul{
     left: 50%;
     moz-transition: all 1s ease-in-out;
     o-transition: all 1s ease-in-out;
@@ -291,16 +291,16 @@ nav ul{
     transition: all 1s ease-in-out;
     webkit-transition: all 1s ease-in-out;
 }
-nav li{
+nav2 li{
     font-size: 30px;
     list-style: none;
     padding-bottom: 10px;
     text-align: center;
 }
-nav ul li a:hover{
+nav2 ul li a:hover{
     color: #fff;
 }
-nav li a{
+nav2 li a{
     color: #ccc;
     text-decoration: none;
 }

@@ -1,13 +1,10 @@
 {{ define "main" }}
+{{ range where .Data.Pages "Params.robotsdisallow" true }}
+Disallow: {{ .RelPermalink }}
+{{ end }}
+<div hidden="true"><p>O blog que agrega em sua vida, com dicas importantes sobre suplementos e exercícios físicos.}</p></div>
+{{ partial "jumbotron" (dict "imageUrl" "/img/seo-SB.jpg" "title" "Suplementos Blog" "subtitle" "O seu blog sobre suplementos, dicas de treino e uma vida mais saudável!") }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+{{ partial "blog-home" . }}
 
 {{ end }}

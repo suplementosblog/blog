@@ -1,3 +1,21 @@
-baseurl = "/"
-languageCode = "en-us"
-title = "Homepage"
+baseurl = "https://suplementos.netlify.com/"
+languageCode = "pt-br"
+title = "Suplementos Blog"
+[permalinks]
+post = "/:title"
+  # Nome Disqus
+  disqusShortname = "SuplementosBlog"
+  enableRobotsTXT = "true"
+  [params]
+description = "O blog que agrega em sua vida, com dicas importantes sobre suplementos e exercícios físicos."
+keywords = "Suplementos, academia, treino, musculação"
+[taxonomies]
+author = "autores"
+category = "categorias"
+tag = "tags"
+[sitemap]
+  ChangeFreq = "daily"
+  Priority = "1"
+  filename = "sitemap.xml"
+[Author]  
+  name = "SB"

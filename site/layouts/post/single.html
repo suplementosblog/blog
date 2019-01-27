@@ -1,15 +1,27 @@
 {{ define "main" }}
-
-  <div class="mw6 center ph3 pv4">
+<article>
+  <div class="mw6 center ph3">
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+     <p class="byline">
+    {{- range $index, $element := .Params.autores }}
+  {{ if gt $index 0 }} & {{ end }}
+  <a href="/autores/{{ urlize . }}" class="tags">{{ . }}</a>
+{{ end }}
+   | Renovado dia {{ .Date.Format "02.01.2006" }}</p>
+      <p class="byline">{{ .ReadingTime }} minutos de leitura</p>
     </div>
     <div class="cms mw6">
       <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" width="660px" height="440px"//>{{ end }}
       {{ .Content }}
     </div>
   </div>
-{{ end }}
+	<div class="tags-card">Tag(s):{{ range .Params.tags }}
+	 <span class="tags"><a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a></span>
+	 {{ end }}</div>
+
+    {{ .Render "author-figure" }}
+
+  </article>	
+  {{ end }}

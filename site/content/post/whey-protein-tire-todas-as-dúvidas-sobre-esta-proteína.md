@@ -41,7 +41,7 @@ A proteína é especialmente importante para os atletas como parte integrante de
 
 A exigência de proteína varia dependendo da pessoa. Em geral, a base é que entre **0,7 e 2 gramas de proteína por quilograma de peso corporal** por dia devem ser consumidos. Para uma dieta padrão, isso significa que a maioria dos alimentos é uma fonte direta de proteína ou o conteúdo de proteína é muito alto. 
 
-<img src="/img/whey-protein-perder-peso.png" alt="Pra que serve Whey Protein" title="Pra que serve Whey Protein" width="660px" height="364px">
+<img src="/img/whey-protein-perder-peso.png" alt="Perder peso Whey Protein" title="Perder peso Whey Protein" width="660px" height="364px">
 
 Por causa disso, o Whey Protein é frequentemente usado como parte de sua própria dieta e **plano de condicionamento físico** para ajudar a atender às suas necessidades de proteína pretendidas ou necessárias.
 
@@ -58,6 +58,8 @@ Existem diferenças no **ganho muscular** devido a diferentes tempos de consumo 
 Recomenda-se, no entanto, consumir o pó pela manhã depois de se levantar ou diretamente após o treinamento de força, porque neste momento o corpo precisa de proteína.
 
 Uma dosagem adequada deve sempre ser usada para atingir o alvo proteico desejado. Basicamente, a dosagem diária do pó não difere durante a construção muscular ou durante a perda de peso. Uma quantidade de **30g de Whey** é considerada ideal. 
+
+<img src="/img/como-tomar-whey-protein.png" alt="Como tomar Whey Protein" title="Como tomar Whey Protein" width="660px" height="440px">
 
 O músculo é estimulado ao máximo com um consumo de aproximadamente 20 a 30g de proteína em pó por refeição, de modo que uma dosagem maior não vai promover uma construção muscular mais rápida. Também no que diz respeito à perda de peso, o corpo não consegue processar uma dose maior de proteína por refeição.
 
@@ -78,6 +80,8 @@ Existem três produtos básicos de alta qualidade no mercado, comercializados co
 Concentrados de soro do leite são baratos porque não são do mais alto grau de qualidade de qualidade de construção e densidade de proteína.
 
 A **Whey Protein Concentrado** é ideal para fazer um shakes de proteína, pastas, misturas prontas para panquecas ou barras de proteína. O teor de proteína de um concentrado de Whey é em média de 30 a 80%.
+
+<img src="/img/whey-protein-concentrado.png" alt="Whey Protein Concentrado" title="Whey Protein Concentrado" width="660px" height="440px">
 
 Em uma barra de chocolate ou amendoim, o teor de proteína é por natureza já relativamente alto. No entanto, ele ainda pode ser melhorado pelo pó Whey. 
 
@@ -122,6 +126,8 @@ O **hidrolisado ou isolado** são considerados suplementos para atletas como fon
 O valor biológico dos ovos, leite ou produtos de soja também é alto, mas não comparável. Apenas os ovos têm um valor biológico suficientemente alto. 
 
 Todas as outras **fontes de proteína** devem ser combinadas com outras fontes de proteína para manter a mesma alta qualidade. Além disso, muitas das fontes de proteína na dieta têm uma certa quantidade de gordura, maior teor calórico e maior teor de carboidratos que o soro do leite.
+
+<img src="/img/whey-protein-beneficios.png" alt="Whey Protein beneficios" title="Whey Protein beneficios" width="660px" height="440px">
 
 Até mesmo as proteínas vegetais na dieta fornecem uma boa base para o suprimento de proteína, mas elas precisam primeiro ser digeridas e divididas, já os aminoácidos do soro é diferente. 
 

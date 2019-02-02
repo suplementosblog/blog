@@ -6,7 +6,6 @@ Disallow: {{ .RelPermalink }}
 {{ partial "jumbotron" (dict "imageUrl" "/img/seo-SB.jpg" "title" "Suplementos Blog" "subtitle" "O seu blog sobre suplementos, dicas de treino e uma vida mais saudável!") }}
 
 {{ partial "blog-home" . }}
-{{- if $sidebar -}}
 <aside class="sidebar{{ if eq $sidebar "left" }} sidebar--left{{ end }}">
 {{- $root := . }}
 {{- with (default .Site.Params.sidebar.widgets .Params.widgets) -}}

@@ -2,30 +2,31 @@
 <div class="mb4">
   <h4 class="f3 b lh-title mb3 tc">Mande sua mensagem!</h4>
 
-  <form name='contact' method="POST" netlify method='post' action='/obrigado'><input type='hidden' name='form-name' value='contato' />
+  <form action='/obrigado' name='contact' netlify method='post'><input type='hidden' name='form-name' value='contato' />
     <div class="flex-l mhn1-l">
           
+      <!-- Name -->
       <div class="ph1-l w-50-l">
-        <p>
-          <input type="text" name="name" placeholder="Seu nome" class="w-100 mb2">
+        <fieldset>
+          <input type="text" id="name" placeholder="Seu nome" class="w-100 mb2">
           <label for="name">Nome</label>
-        </p>
+        </fieldset>
       </div>
-          
+          <!-- Email -->
       <div class="ph1-l w-50-l">
-        <p>
-          <input type="email" name="email" placeholder="Seu email" class="w-100 mb2">
+        <fieldset>
+          <input type="email" id="email" placeholder="Seu email" class="w-100 mb2">
           <label for="email">Email</label>
-        </p>
+        </fieldset>
       </div>
     </div>
 
-        
-    <p>
-      <textarea name="message" placeholder="Sua mensagem" rows="8" cols="80" id="message" class="w-100"></textarea>
+        <!-- Message -->
+    <fieldset>
+      <textarea name="name" placeholder="Sua mensagem" rows="8" cols="80" id="message" class="w-100"></textarea>
       <label for="message">Escreva sua mensagem</label>
-    </p>
-        
+    </fieldset>
+        <!-- Button -->
     <div class="tc">
       <button type="submit" class="btn w-100 w-auto-ns raise">Enviar</button>
     </div>

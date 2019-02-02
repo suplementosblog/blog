@@ -6,16 +6,6 @@ Disallow: {{ .RelPermalink }}
 {{ partial "jumbotron" (dict "imageUrl" "/img/seo-SB.jpg" "title" "Suplementos Blog" "subtitle" "O seu blog sobre suplementos, dicas de treino e uma vida mais saudável!") }}
 
 {{ partial "blog-home" . }}
-{{- $s := newScratch }}
-{{- if eq .Kind "home" -}}
-	{{ $s.Set "sb" (default .Site.Params.sidebar.home .Params.sidebar) }}
-{{- else if eq .Kind "page" -}}
-	{{ $s.Set "sb" (default .Site.Params.sidebar.single .Params.sidebar) }}
-{{- else -}}
-	{{ $s.Set "sb" (default .Site.Params.sidebar.list .Params.sidebar) }}
-{{ end }}
-{{- $sidebar := $s.Get "sb" }}
-
 {{- if $sidebar -}}
 <aside class="sidebar{{ if eq $sidebar "left" }} sidebar--left{{ end }}">
 {{- $root := . }}
@@ -28,5 +18,4 @@ Disallow: {{ .RelPermalink }}
 	<p class="sidebar__warning"><strong>{{ T "sidebar_warning" }}:</strong><br>{{ T "sidebar_recommendation" }}</p>
 {{- end }}
 </aside>
-{{- end }}
 {{ end }}

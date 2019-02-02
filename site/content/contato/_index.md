@@ -1,11 +1,9 @@
 ---
 title: Contato
-logo: /img/logo-sb.png
-robotsdisallow: true
+logo: /img/android-chrome-192x192.png
 contact_entries:
   - heading: Local
-    text: Ceará - Brasil
-    
+    text: Ceará-Brasil
 ---
 Que bom que chegou na página de contato, assim que seu e-mail chegar na minha caixa de entrada eu lhe responderei.
 

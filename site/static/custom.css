@@ -320,6 +320,33 @@ h6 { font-size: .75em; }
     .toggle {
         right: 1.75rem;
     }
+	  
+sidebar {
+	-webkit-flex: 1 0 31.66%;
+	-ms-flex: 1 0 31.66%;
+	flex: 1 0 31.66%;
+	-ms-flex-order: 2;
+	-webkit-order: 2;
+	order: 2;
+	min-width: 0;
+	margin: 0 0 0 2.5%;
+}
+
+.sidebar--left {
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	margin: 0 2.5% 0 0;
+}
+	 @media screen and (max-width: 767px) {
+	
+	.sidebar {
+		float: none;
+		width: 100%;
+		margin: 0;
+	        margin-top: 20px;
+	}
+}
     
    /* Widgets */
 .widget {

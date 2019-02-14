@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+http://www.suplementos.eu.org/* http://suplementos.eu.org/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://suplementos.netlify.com/* http://suplementos.eu.org/:splat 301!

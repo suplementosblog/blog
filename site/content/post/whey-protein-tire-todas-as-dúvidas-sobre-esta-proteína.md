@@ -3,7 +3,7 @@ title: Whey protein - Tire todas as dúvidas sobre o suplemento
 url: whey-protein
 autores:
   - sb
-date: 2019-01-29T17:50:29.108Z
+date: 2019-02-14T17:50:29.108Z
 description: >-
   Whey protein é basicamente a proteína retirada do soro do leite, tornando-se o
   suplemento desportivo mais popular para o crescimento e reparação do músculo.

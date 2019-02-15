@@ -145,6 +145,8 @@ Como regra geral, pode-se afirmar que você deve ganhar 0,7 a 2 vezes o seu peso
 
 As proteínas animais têm um valor biológico mais alto que das plantas. No entanto, você pode obter uma d**ieta balanceada** e um treinamento eficaz somente se combinar os dois tipos de proteína. 
 
-Distribua sua ingestão de proteínas ao longo do dia. Acima de tudo, a janela anabólica logo **após o treinamento**, você deve aproveitar para consumir muitas proteínas. Você pode recorrer aos shakes de Whey Protein, que fornecem muita energia, são facilmente digeríveis e estão disponíveis em muitos sabores diferentes. 
+Distribua sua ingestão de proteínas ao longo do dia. Acima de tudo, a janela anabólica logo **após o treinamento**, você deve aproveitar para consumir muitas proteínas. Você pode recorrer aos **shakes de Whey Protein**, que fornecem muita energia, são facilmente digeríveis e estão disponíveis em muitos sabores diferentes. 
 
 Mas você também precisa combinar sua dieta com um treinamento completo e um plano de **execícios** voltados para os seus objetivos.
+
+Veja também: <a href="https://suplementos.eu.org/maltodextrina/" target="_blank" rel="noopener" rel="follow">Maltodextrina: é seguro tomar? Descubra tudo sobre</a>
